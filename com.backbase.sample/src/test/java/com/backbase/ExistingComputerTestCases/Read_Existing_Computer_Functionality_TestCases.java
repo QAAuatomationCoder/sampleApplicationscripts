@@ -48,10 +48,10 @@ public class Read_Existing_Computer_Functionality_TestCases extends BaseSetUp{
 	 * Description: To verify the details of already existing computer
 	 * Precondition - Computer should exists in system
 	 * Test Case Type: Positive
-	 * @param : tcID
+	 * @param : extCompName
 	 * @throws ParseException 
 	 * @Author: Hitesh Ghai
-	 * @Expected Result: System should display correct details for existing computers
+	 * @Expected Result: System should display correct details for existing computers in data grid on home page
 	 * 
 	 * 
 	 * ######################################################################################################################
@@ -63,20 +63,19 @@ public class Read_Existing_Computer_Functionality_TestCases extends BaseSetUp{
 		homePgObj= new Page_Home(driver);	
 			
 		// Step 1: Verify home page is displayed
+		
 		homePgObj.verifyHomePage("Reading");
 	
 		// Step 2: Enter existing computer name in search field
 		
 		homePgObj.enterCompName_InSrchField(extCompName,"Reading");
-		
-		
+				
 		// Step 3: Click on 'Filter by name' button
 		
 		homePgObj.click_FilterBtn("Reading");
 		
 		// Step 4: Verify filtered results shows correct computer details
-		
-		
+				
 		// 4.1 First fetch the searched new computer details
 		
 		searchedData= homePgObj.fetchTableData(extCompName);
@@ -104,7 +103,7 @@ public class Read_Existing_Computer_Functionality_TestCases extends BaseSetUp{
 	 * Description: To verify the details of already existing computer
 	 * Precondition - Computer should exists in system
 	 * Test Case Type: Positive
-	 * @param : tcID
+	 * @param : extCompName
 	 * @throws ParseException 
 	 * @Author: Hitesh Ghai
 	 * @Expected Result: System should display correct details for existing computers
@@ -151,10 +150,10 @@ public class Read_Existing_Computer_Functionality_TestCases extends BaseSetUp{
 	 * Description: To verify the details of already existing computer
 	 * Precondition - Computer should exists in system
 	 * Test Case Type: Positive
-	 * @param : tcID
+	 * @param : extCompName
 	 * @throws Exception 
 	 * @Author: Hitesh Ghai
-	 * @Expected Result: System should display message while searching non existing computers
+	 * @Expected Result: System should display warning message while searching non existing computers
 	 * 
 	 * 
 	 * ######################################################################################################################

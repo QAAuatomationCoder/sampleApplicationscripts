@@ -32,7 +32,7 @@ public class Update_Computer_Functionality_TestCases extends BaseSetUp{
 	boolean isEventSuccessful;
 	String successMsg=null;
 	String dCFormatteddate=null;
-	String updCompName="Silver Line Computer000";
+	String updCompName="Silver Line Computer000 Quad Series";
 	String updIntroDate="2018-05-21";
 	String upddCDate="2018-08-30";
 	String updCompany="MOS Technology";

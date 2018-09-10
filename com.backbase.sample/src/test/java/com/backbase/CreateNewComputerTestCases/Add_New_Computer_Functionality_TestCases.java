@@ -71,7 +71,7 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 	 * Description: To verify the addition of new computer on providing the valid new computer details.
 	 * Precondition - N/A
 	 * Test Case Type: Positive
-	 * @param : tcID
+	 * @param : newcompName,introDate,dcDate,companyName
 	 * @throws ParseException 
 	 * @Author: Hitesh Ghai
 	 * @Expected Result: New Computer should be added successfully. Correct New computer details should be displayed on home page
@@ -270,6 +270,7 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 	 * TC_004_New_Computer_Addition_New 'Computer Name' Mandatory Field Verification	
 	 * Description: To validate the warning message while trying to add new computer with blank new computer name
 	 * Precondition - N/A
+	 * Test Case Type: Negative
 	 * @param : tcID
 	 * @Author: Hitesh Ghai
 	 * @Expected Result: New Computer should not be added as proper validation message should be displayed
@@ -380,7 +381,8 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 	 * TC_005_New_Computer_Addition_Introduced Date Incorrect Date Format Verification_Case1
 	 * Description: To validate the warning message while trying to add new computer with invalid Introduced Date format (i.e. mm/dd/yyyy)
 	 * Precondition - N/A
-	 * @param : tcID
+	 * Test Case Type: Negative
+	 * @param : N/A
 	 * @Author: Hitesh Ghai
 	 * @Expected Result: New Computer should not be added as proper validation message should be displayed due to invalid 'Introduced Date' format
 	 * #############################################################################################################################################
@@ -491,7 +493,8 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 	 * TC_006_New_Computer_Addition_Introduced Date Incorrect Date Format Verification_Case2
 	 * Description: To validate the warning message while trying to add new computer with invalid Introduced Date format (i.e. dd/mm/yyyy)
 	 * Precondition - N/A
-	 * @param : tcID
+	 * Test Case Type: Negative
+	 * @param : N/A
 	 * @Author: Hitesh Ghai
 	 * @Expected Result: New Computer should not be added as proper validation message should be displayed due to invalid 'Introduced Date' format
 	 * #############################################################################################################################################
@@ -600,7 +603,8 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 	 * TC_007_New_Computer_Addition_Text Data in Introduced Date field
 	 * Description: To validate the warning message while trying to add new computer with invalid Introduced Date format (e.g 'twentySecondNovember')
 	 * Precondition - N/A
-	 * @param : tcID
+	 * Test Case Type: Negative
+	 * @param : N/A
 	 * @Author: Hitesh Ghai
 	 * @Expected Result: New Computer should not be added as proper validation message should be displayed due to invalid 'Introduced Date' format
 	 * #############################################################################################################################################
@@ -702,9 +706,10 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 	 * TC_008_New_Computer_Addition_Discontinued Date Incorrect Date Format Verification_Case1
 	 * Description: To validate the warning message while trying to add new computer with invalid Discontinued Date format (i.e. mm/dd/yyyy)
 	 * Precondition - N/A
-	 * @param : tcID
+	 * Test Case Type: Negative
+	 * @param : N/A
 	 * @Author: Hitesh Ghai
-	 * @Expected Result: New Computer should not be added as proper validation message should be displayed due to invalid 'Discontiuned Date' format
+	 * @Expected Result: New Computer should not be added as proper validation message should be displayed due to invalid 'Discontinued Date' format
 	 * #############################################################################################################################################
 	 */
 	
@@ -805,9 +810,10 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 	 * TC_009_New_Computer_Addition_Discontinued Date Incorrect Date Format Verification_Case2
 	 * Description: To validate the warning message while trying to add new computer with invalid 'Discontinued Date' format (i.e. dd/mm/yyyy)
 	 * Precondition - N/A
-	 * @param : tcID
+	 * Test Case Type: Negative
+	 * @param : N/A
 	 * @Author: Hitesh Ghai
-	 * @Expected Result: New Computer should not be added as proper validation message should be displayed due to invalid 'Introduced Date' format
+	 * @Expected Result: New Computer should not be added as proper validation message should be displayed due to invalid 'Discontinued Date' format
 	 * #############################################################################################################################################
 	 */
 	
@@ -911,7 +917,8 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 	 * TC_010_New_Computer_Addition_Text Data in Discontinued Date field
 	 * Description: To validate the warning message while trying to add new computer with invalid (text data) in Discontinued Date format (e.g 'twentySecondNovember')
 	 * Precondition - N/A
-	 * @param : tcID
+	 * Test Case Type: Negative
+	 * @param : N/A
 	 * @Author: Hitesh Ghai
 	 * @Expected Result: New Computer should not be added as proper validation message should be displayed due to invalid 'Discontinued Date' format
 	 * #############################################################################################################################################
@@ -1013,7 +1020,8 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 	 * TC_011_New_Computer_Addition_When Introduced Date less than Discontinued Date
 	 * Description: To validate the warning message while trying to add new computer when 'Discontinued date' is less than 'Introduced Date'
 	 * Precondition - N/A
-	 * @param : tcID
+	 * Test Case Type: Negative
+	 * @param : N/A
 	 * @throws ParseException 
 	 * @Author: Hitesh Ghai
 	 * @Expected Result: New Computer should not be added as proper validation message should be displayed due to 'Discontinued date' is less than 'Introduced Date'
@@ -1070,17 +1078,17 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 		 * element/message exits, then this step is passed otherwise failed
 		 * 
 		 */			
-				isEventSuccessful=newCompAddObj.check_ErrorElementState();
-				try {
-					if (!isEventSuccessful) {
-						ExtentTestManager.getTest().log(LogStatus.FAIL,"No Validation message for 'Discontinued Date' less than 'Introducation Date' is thrown");
-						logger.info("#########  No Validation message for 'Discontinued Date' less than 'Introducation Date' is thrown###########");
+		isEventSuccessful=newCompAddObj.check_ErrorElementState();
+			try {
+				if (!isEventSuccessful) {
+					ExtentTestManager.getTest().log(LogStatus.FAIL,"No Validation message for 'Discontinued Date' less than 'Introducation Date' is thrown");
+					logger.info("#########  No Validation message for 'Discontinued Date' less than 'Introducation Date' is thrown###########");
 					}
 				}
 
-				catch (Exception e) {
-					ExtentTestManager.getTest().log(LogStatus.PASS, "'Discontinued Date' is highlighed successfully as 'Discontinued date is less than 'Introducation Date'.'Please enter date valid 'Discontinued Date");
-					logger.info("#########User is able to create new computer###########");
+			catch (Exception e) {
+				ExtentTestManager.getTest().log(LogStatus.PASS, "'Discontinued Date' is highlighed successfully as 'Discontinued date is less than 'Introducation Date'.'Please enter date valid 'Discontinued Date");
+				logger.info("#########User is able to create new computer###########");
 					// Assert.assertTrue(false);
 				}
 		
@@ -1089,18 +1097,16 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 		 * 
 		 */		
 		
-				successMsg=homePgObj.getSuccessMgs();
-				if(successMsg.contains("Done") || successMsg.contains(newCompName))
-				{
-					
-					ExtentTestManager.getTest().log(LogStatus.FAIL, "No Validation message is thrown about discontinued date less than Introducation as user routes to home page after creating a new computer i.e " + newCompName);
-					logger.info("#########No Validation message is thrown as new computer i.e " + newCompName + "created###########");
-				}
-				else
-				{
-					ExtentTestManager.getTest().log(LogStatus.PASS, "Success message does not contain new computer name hence new computer was NOT added successfully");
-					logger.info("#########Success message does not contain new computer name hence new computer was NOT added successfully###########");
-				}	
+		successMsg = homePgObj.getSuccessMgs();
+		if (successMsg.contains("Done") || successMsg.contains(newCompName)) {
+
+			ExtentTestManager.getTest().log(LogStatus.FAIL,"No Validation message is thrown about discontinued date less than Introducation as user routes to home page after creating a new computer i.e "
+							+ newCompName);
+			logger.info("#########No Validation message is thrown as new computer i.e " + newCompName + "created###########");
+		} else {
+			ExtentTestManager.getTest().log(LogStatus.PASS,"Success message does not contain new computer name hence new computer was NOT added successfully");
+			logger.info("#########Success message does not contain new computer name hence new computer was NOT added successfully###########");
+		}
 	
 	}
 	
@@ -1109,7 +1115,8 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 	 * Description: To validate the warning message while trying to add new computer when providing invalid non-leap year 'Introduced' or 'Discontinued' dates are for non leap years
 	 * e.g. '2018/02/29'
 	 * Precondition - N/A
-	 * @param : tcID
+	 * Test Case Type: Negative
+	 * @param : N/A
 	 * @throws ParseException 
 	 * @Author: Hitesh Ghai
 	 * @Expected Result: New Computer should not be added as proper validation message should be displayed due to incorrect 'Introduced' or 'Discontinued' dates
@@ -1167,36 +1174,34 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 			 * element/message exits, then this step is passed otherwise failed
 			 * 
 			 */			
-					isEventSuccessful=newCompAddObj.check_ErrorElementState();
+			isEventSuccessful=newCompAddObj.check_ErrorElementState();
 					
-						if (!isEventSuccessful) {
-							ExtentTestManager.getTest().log(LogStatus.FAIL,"No Validation message for incorrect 'Introduced Date' i.e. " + nonLeapYrIntDate + "is thrown");
-							logger.info("#########  No Validation message for incorrect introduced date is thrown###########");
-						}
-					
-
-					else {
-						ExtentTestManager.getTest().log(LogStatus.PASS, "Correct Validation message for incorrect 'Introduced Date' i.e. " + nonLeapYrIntDate + " (a leap year) is thrown");
-						logger.info("#########User is able to create new computer###########");
+			if (!isEventSuccessful) {
+				ExtentTestManager.getTest().log(LogStatus.FAIL,"No Validation message for incorrect 'Introduced Date' i.e. " + nonLeapYrIntDate + "is thrown");
+				logger.info("#########  No Validation message for incorrect introduced date is thrown###########");
+				}
+			else {
+					ExtentTestManager.getTest().log(LogStatus.PASS, "Correct Validation message for incorrect 'Introduced Date' i.e. " + nonLeapYrIntDate + " (a leap year) is thrown");
+					logger.info("#########User is able to create new computer###########");
 						// Assert.assertTrue(false);
-					}
+				}
 			
 			/*
 			 * Step 9.1: Verification Alternative 2: If user routes to home page, again in case, this step is failed 
 			 * 
 			 */		
 			
-					successMsg=homePgObj.getSuccessMgs();
-					if(successMsg.contains("Done") || successMsg.contains(newCompName))
-					{
-						ExtentTestManager.getTest().log(LogStatus.FAIL,"No Validation message for incorrect 'Introduced Date' i.e. " + nonLeapYrIntDate + "is thrown");
-						logger.info("#########  No Validation message for incorrect introduced date is thrown###########");
-					}
-					else
-					{
-						ExtentTestManager.getTest().log(LogStatus.PASS, "Success message does not contain new computer name hence new computer was NOT added");
-						logger.info("#########Success message does not contain new computer name hence new computer was NOT added successfully###########");
-					}	
+			successMsg=homePgObj.getSuccessMgs();
+				if(successMsg.contains("Done") || successMsg.contains(newCompName))
+				{
+					ExtentTestManager.getTest().log(LogStatus.FAIL,"No Validation message for incorrect 'Introduced Date' i.e. " + nonLeapYrIntDate + "is thrown");
+					logger.info("#########  No Validation message for incorrect introduced date is thrown###########");
+				}
+				else
+				{
+					ExtentTestManager.getTest().log(LogStatus.PASS, "Success message does not contain new computer name hence new computer was NOT added");
+					logger.info("#########Success message does not contain new computer name hence new computer was NOT added successfully###########");
+				}	
 		
 		}
 	
@@ -1205,14 +1210,13 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 	 * Description: To Verify the successful addition of new computer for 'Introduce' or 'Discontinued' leap year dates
 	 * e.g. '2020/02/29'
 	 * Precondition - N/A
-	 * @param : tcID
+	 * Test Case Type: Positive
+	 * @param : N/A
 	 * @throws ParseException 
 	 * @Author: Hitesh Ghai
 	 * @Expected Result: New Computer should be added successfully
 	 * ##############################################################################################################################################################
-	 */
-	
-	
+	 */	
 	
 	@Test(priority=11)
 	public void TC_013_Verify_New_Computer_Addition_With_Leap_Years() throws ParseException
@@ -1230,8 +1234,7 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 		homePgObj.verifyHomePage("Addition");
 		
 		newCompAddObj= new Page_NewComputerAddition(driver);
-		
-		
+				
 		// Step 2: Click on 'Add a new computer' button 
 		
 		newCompAddObj=homePgObj.clickAddNewCompBtn("Firefox", testCaseName);		
@@ -1265,21 +1268,19 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 		 * it is fail
 		 *
 		 */			
-				isEventSuccessful=newCompAddObj.check_ErrorElementState();
-				try {
-					if (isEventSuccessful) {
-						ExtentTestManager.getTest().log(LogStatus.FAIL,"Validation message for valid 'Discontinued Date' leap year i.e " + leapYearDisConDate + " is thrown");
-						logger.info("#########  Validation message for valid 'Discontinued Date' leap year is thrown ####");
+		isEventSuccessful=newCompAddObj.check_ErrorElementState();
+			try {
+				if (isEventSuccessful) {
+					ExtentTestManager.getTest().log(LogStatus.FAIL,"Validation message for valid 'Discontinued Date' leap year i.e " + leapYearDisConDate + " is thrown");
+					logger.info("#########  Validation message for valid 'Discontinued Date' leap year is thrown ####");
 					}
 				}
 
-				catch (Exception e) {
-					ExtentTestManager.getTest().log(LogStatus.PASS, "No Validation message for valid 'Discontinued Date' leap year i.e " + leapYearDisConDate + " is thrown");
-					logger.info("#########User is able to create new computer###########");
+			catch (Exception e) {
+				ExtentTestManager.getTest().log(LogStatus.PASS, "No Validation message for valid 'Discontinued Date' leap year i.e " + leapYearDisConDate + " is thrown");
+				logger.info("#########User is able to create new computer###########");
 					// Assert.assertTrue(false);
-				}
-		
-			
+				}			
 	}	
 	
 	/** ###########################################################################################################################################################
@@ -1287,7 +1288,8 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 	 * Description: To Verify the validation message for incorrect month ending dates for 'Introduced' or 'Discontinued' dates
 	 * e.g. '2018/09/31'
 	 * Precondition - N/A
-	 * @param : tcID
+	 * Test Case Type: Negative
+	 * @param : N/A
 	 * @throws ParseException 
 	 * @Author: Hitesh Ghai
 	 * @Expected Result: A validation message should be shown for incorrect month ending dates for 'Introduced' or 'Discontinued' dates
@@ -1344,28 +1346,27 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 		 * it is fail
 		 *
 		 */			
-				isEventSuccessful=newCompAddObj.check_ErrorElementState();
-				try {
-					if (isEventSuccessful) {
-						ExtentTestManager.getTest().log(LogStatus.PASS,"Validation message for incorrect month ending date for 'Introduced Date' i.e " + introDate + " is shown");
-						logger.info("#########  Validation message for incorrect 'Introduced Date' is shown ####");
+		isEventSuccessful=newCompAddObj.check_ErrorElementState();
+			try {
+				if (isEventSuccessful) {
+					ExtentTestManager.getTest().log(LogStatus.PASS,"Validation message for incorrect month ending date for 'Introduced Date' i.e " + introDate + " is shown");
+					logger.info("#########  Validation message for incorrect 'Introduced Date' is shown ####");
 					}
 				}
 
-				catch (Exception e) {
-					ExtentTestManager.getTest().log(LogStatus.FAIL, "Validation message for incorrect month ending date for 'Introduced Date' i.e " + introDate + " is shown");
-					logger.info("#########User is able to create new computer###########");
+			catch (Exception e) {
+				ExtentTestManager.getTest().log(LogStatus.FAIL, "Validation message for incorrect month ending date for 'Introduced Date' i.e " + introDate + " is shown");
+				logger.info("#########User is able to create new computer###########");
 					// Assert.assertTrue(false);
-				}
-		
-			
+				}			
 	}	
 	
 	/** ###########################################################################################################################################################
 	 * TC_015_New_Computer_Addition_Cancel Button functionality
 	 * Description: To verify the cancel button functionality on 'Add a computer' page.
 	 * Precondition - N/A
-	 * @param : tcID
+	 * Test Case Type: Positive
+	 * @param : N/A
 	 * @throws ParseException 
 	 * @Author: Hitesh Ghai
 	 * @Expected Result: Clicking on 'Cancel' should route user to application home page without creating new computer
@@ -1458,7 +1459,8 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 		 * TC_016_New_Computer_Addition_Clicking on sample app link Displays Home Page
 		 * Description: To verify the cancel button functionality on 'Add a computer' page.
 		 * Precondition - N/A
-		 * @param : tcID
+		 * Test Case Type: Positive
+		 * @param : N/A
 		 * @throws ParseException 
 		 * @throws InterruptedException 
 		 * @Author: Hitesh Ghai
@@ -1467,11 +1469,9 @@ public class Add_New_Computer_Functionality_TestCases extends BaseSetUp{
 		 */
 	
 	
-@Test(priority=14)
-
-public void TC_016_New_Computer_Addition_Click_Sample_Application_Link_Displays_Home_Page_Verification() throws ParseException, InterruptedException{
-			
-			
+	@Test(priority=14)
+	public void TC_016_New_Computer_Addition_Click_Sample_Application_Link_Displays_Home_Page_Verification() throws ParseException, InterruptedException{
+					
 			homePgObj = new Page_Home(driver);
 
 			newCompAddObj = new Page_NewComputerAddition(driver);

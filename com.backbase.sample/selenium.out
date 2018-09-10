@@ -1,179 +1,193 @@
-2018-09-10 19:55:48 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:55:48 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 19:56:06 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 19:56:07 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 19:56:08 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 19:56:09 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 19:56:09 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 19:56:12 INFO  Test:145 - #########Computer found is showing correct count hence new computer added successfully###########
-2018-09-10 19:56:12 INFO  Test:162 - #########Success message contains new computer name hence new computer added successfully###########
-2018-09-10 19:56:12 INFO  Test:216 - -----Computer name entered successfully in search box-----
-2018-09-10 19:56:13 INFO  Test:207 - #########Correct new computer name is displayed in filtered record###########
-2018-09-10 19:56:13 INFO  Test:223 - #########Correct Introduced date is displayed in filtered record###########
-2018-09-10 19:56:13 INFO  Test:239 - #########Correct Introduced date is displayed in filtered record###########
-2018-09-10 19:56:13 INFO  Test:255 - #########Correct new computer name is displayed in filtered record###########
-2018-09-10 19:56:19 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:56:19 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 19:56:31 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 19:56:32 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 19:56:33 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 19:56:33 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 19:56:33 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 19:56:37 INFO  Test:145 - #########Computer found is showing correct count hence new computer added successfully###########
-2018-09-10 19:56:37 INFO  Test:162 - #########Success message contains new computer name hence new computer added successfully###########
-2018-09-10 19:56:37 INFO  Test:216 - -----Computer name entered successfully in search box-----
-2018-09-10 19:56:37 INFO  Test:207 - #########Correct new computer name is displayed in filtered record###########
-2018-09-10 19:56:37 INFO  Test:223 - #########Correct Introduced date is displayed in filtered record###########
-2018-09-10 19:56:37 INFO  Test:239 - #########Correct Introduced date is displayed in filtered record###########
-2018-09-10 19:56:37 INFO  Test:255 - #########Correct new computer name is displayed in filtered record###########
-2018-09-10 19:56:39 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:56:39 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 19:56:50 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 19:56:51 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 19:56:52 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 19:56:52 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 19:56:52 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 19:56:55 INFO  Test:334 - #########User is correctly unable to create new computer due to missing of new computer name###########
-2018-09-10 19:56:55 INFO  Test:359 - #########User is correctly unable to create new computer due to missing of new computer name###########
-2018-09-10 19:56:57 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:56:57 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 19:57:13 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 19:57:13 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 19:57:14 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 19:57:14 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 19:57:15 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 19:57:18 INFO  Test:445 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
-2018-09-10 19:57:18 INFO  Test:470 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
-2018-09-10 19:57:19 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:57:19 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 19:57:30 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 19:57:31 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 19:57:32 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 19:57:32 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 19:57:32 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 19:57:35 INFO  Test:556 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
-2018-09-10 19:57:35 INFO  Test:580 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
-2018-09-10 19:57:37 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:57:37 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 19:57:48 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 19:57:48 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 19:57:50 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 19:57:50 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 19:57:50 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 19:57:53 INFO  Test:664 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
-2018-09-10 19:57:53 INFO  Test:688 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
-2018-09-10 19:57:54 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:57:54 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 19:58:05 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 19:58:06 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 19:58:07 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 19:58:07 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 19:58:07 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 19:58:10 INFO  Test:766 - #########User is correctly unable to create new computer due to invalid 'Discontinued Date' format###########
-2018-09-10 19:58:10 INFO  Test:791 - #########User is correctly unable to create new computer due to invalid 'Discontinued Date' format###########
-2018-09-10 19:58:11 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:58:11 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 19:58:22 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 19:58:23 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 19:58:24 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 19:58:24 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 19:58:24 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 19:58:27 INFO  Test:871 - #########User is correctly unable to create new computer due to invalid 'Discontinued Date' format###########
-2018-09-10 19:58:27 INFO  Test:895 - #########User is correctly unable to create new computer due to invalid 'Discontiuned Date format###########
-2018-09-10 19:58:28 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:58:28 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 19:58:39 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 19:58:39 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 19:58:40 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 19:58:41 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 19:58:41 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 19:58:44 INFO  Test:975 - #########User is correctly unable to create new computer due to invalid Discontinued date format###########
-2018-09-10 19:58:44 INFO  Test:999 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
-2018-09-10 19:58:44 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:58:44 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 19:58:55 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 19:58:56 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 19:58:57 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 19:58:57 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 19:58:57 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 19:59:01 INFO  Test:1077 - #########  No Validation message for 'Discontinued Date' less than 'Introducation Date' is thrown###########
-2018-09-10 19:59:01 INFO  Test:1097 - #########No Validation message is thrown as new computer i.e Cosmic Computer Systemscreated###########
-2018-09-10 19:59:02 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:59:02 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 19:59:13 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 19:59:13 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 19:59:15 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 19:59:15 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 19:59:15 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 19:59:18 INFO  Test:1180 - #########User is able to create new computer###########
-2018-09-10 19:59:18 INFO  Test:1198 - #########Success message does not contain new computer name hence new computer was NOT added successfully###########
-2018-09-10 19:59:19 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:59:19 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 19:59:30 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 19:59:30 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 19:59:31 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 19:59:32 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 19:59:32 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 19:59:35 INFO  Test:1272 - #########  Validation message for valid 'Discontinued Date' leap year is thrown ####
-2018-09-10 19:59:35 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:59:35 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 19:59:47 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 19:59:47 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 19:59:49 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 19:59:49 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 19:59:49 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 19:59:52 INFO  Test:1351 - #########  Validation message for incorrect 'Introduced Date' is shown ####
-2018-09-10 19:59:53 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 19:59:53 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 20:00:03 INFO  Test:131 - --------Sample Application clicked successfully-----------------
-2018-09-10 20:00:03 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 20:00:05 INFO  Test:80 - -----Computer name entered successfully-----
-2018-09-10 20:00:05 INFO  Test:89 - -----Introdced date entered successfully-----
-2018-09-10 20:00:05 INFO  Test:98 - -----Introdced date entered successfully-----
-2018-09-10 20:00:08 INFO  Test:1425 - #########User is routed to Home page after clicking on cancel button###########
-2018-09-10 20:00:08 INFO  Test:216 - -----Computer name entered successfully in search box-----
-2018-09-10 20:00:09 INFO  Test:367 - --------Nothing to display message is displayed-----------------
-2018-09-10 20:00:09 INFO  Test:1449 - #########User is routed to Home page after clicking on cancel button###########
-2018-09-10 20:00:09 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 20:00:09 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 20:00:21 INFO  Test:131 - --------Sample Application clicked successfully-----------------
-2018-09-10 20:00:21 INFO  Test:155 - --------Add new computer clicked successfully-----------------
-2018-09-10 20:00:22 INFO  Test:131 - --------Sample Application clicked successfully-----------------
-2018-09-10 20:00:22 INFO  Test:1504 - #########User is routed to Home page after clicking on sample application link###########
-2018-09-10 20:00:23 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 20:00:23 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 20:00:33 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 20:00:33 INFO  Test:216 - -----Computer name entered successfully in search box-----
-2018-09-10 20:00:34 INFO  Test:91 - ######### Existing computer searched successfully ###########
-2018-09-10 20:00:35 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 20:00:35 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 20:00:45 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 20:00:45 INFO  Test:216 - -----Computer name entered successfully in search box-----
-2018-09-10 20:00:46 INFO  Test:367 - --------Nothing to display message is displayed-----------------
-2018-09-10 20:00:46 INFO  Test:141 - #########Non existing computer can not be searched as 'Nothing to display' message is displayed###########
-2018-09-10 20:00:46 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 20:00:46 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 20:00:57 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 20:00:57 INFO  Test:216 - -----Computer name entered successfully in search box-----
-2018-09-10 20:01:00 INFO  Test:222 - #########Non existing computer can not be searched as 'Nothing to display' message is displayed###########
-2018-09-10 20:01:01 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 20:01:01 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 20:01:20 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 20:01:21 INFO  Test:216 - -----Computer name entered successfully in search box-----
-2018-09-10 20:01:26 INFO  Test:84 - #########Success message correctly displays about computer deletion###########
-2018-09-10 20:01:26 INFO  Test:216 - -----Computer name entered successfully in search box-----
-2018-09-10 20:01:26 INFO  Test:367 - --------Nothing to display message is displayed-----------------
-2018-09-10 20:01:26 INFO  Test:105 - #########Deleted computer can not be searched as 'Nothing to display' message is displayed###########
-2018-09-10 20:01:27 INFO  Test:84 - Creating a object of Firefox Browser
-2018-09-10 20:01:27 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
-2018-09-10 20:01:38 INFO  Test:79 - --------Home Page is displayed successfully-----------------
-2018-09-10 20:01:38 INFO  Test:216 - -----Computer name entered successfully in search box-----
-2018-09-10 20:01:42 INFO  Test:102 - -----Computer name entered successfully-----
-2018-09-10 20:01:42 INFO  Test:111 - -----Introdced date entered successfully-----
-2018-09-10 20:01:42 INFO  Test:120 - -----Introdced date entered successfully-----
-2018-09-10 20:01:46 INFO  Test:121 - #########Success message contains updated computer name hence computer updated successfully###########
-2018-09-10 20:01:46 INFO  Test:216 - -----Computer name entered successfully in search box-----
-2018-09-10 20:01:46 INFO  Test:164 - #########Correct updated 'computer name' is displayed in filtered record###########
-2018-09-10 20:01:46 INFO  Test:180 - #########Correct updated Introduced date is displayed in filtered record###########
-2018-09-10 20:01:46 INFO  Test:196 - #########Correct updated Introduced date is displayed in filtered record###########
-2018-09-10 20:01:46 INFO  Test:212 - #########Correct updated 'company name' is displayed in filtered record###########
+2018-09-10 21:49:57 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:49:57 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:50:18 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:50:19 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:50:20 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:50:20 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:50:20 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:50:24 INFO  Test:145 - #########Computer found is showing correct count hence new computer added successfully###########
+2018-09-10 21:50:24 INFO  Test:162 - #########Success message contains new computer name hence new computer added successfully###########
+2018-09-10 21:50:24 INFO  Test:216 - -----Computer name entered successfully in search box-----
+2018-09-10 21:50:25 INFO  Test:207 - #########Correct new computer name is displayed in filtered record###########
+2018-09-10 21:50:25 INFO  Test:223 - #########Correct Introduced date is displayed in filtered record###########
+2018-09-10 21:50:25 INFO  Test:239 - #########Correct Introduced date is displayed in filtered record###########
+2018-09-10 21:50:25 INFO  Test:255 - #########Correct new computer name is displayed in filtered record###########
+2018-09-10 21:50:29 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:50:29 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:50:40 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:50:41 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:50:42 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:50:42 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:50:42 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:50:46 INFO  Test:145 - #########Computer found is showing correct count hence new computer added successfully###########
+2018-09-10 21:50:46 INFO  Test:162 - #########Success message contains new computer name hence new computer added successfully###########
+2018-09-10 21:50:46 INFO  Test:216 - -----Computer name entered successfully in search box-----
+2018-09-10 21:50:46 INFO  Test:207 - #########Correct new computer name is displayed in filtered record###########
+2018-09-10 21:50:46 INFO  Test:223 - #########Correct Introduced date is displayed in filtered record###########
+2018-09-10 21:50:46 INFO  Test:239 - #########Correct Introduced date is displayed in filtered record###########
+2018-09-10 21:50:46 INFO  Test:255 - #########Correct new computer name is displayed in filtered record###########
+2018-09-10 21:50:47 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:50:47 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:50:58 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:51:00 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:51:01 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:51:02 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:51:02 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:51:05 INFO  Test:145 - #########Computer found is showing correct count hence new computer added successfully###########
+2018-09-10 21:51:05 INFO  Test:162 - #########Success message contains new computer name hence new computer added successfully###########
+2018-09-10 21:51:06 INFO  Test:216 - -----Computer name entered successfully in search box-----
+2018-09-10 21:51:06 INFO  Test:207 - #########Correct new computer name is displayed in filtered record###########
+2018-09-10 21:51:06 INFO  Test:223 - #########Correct Introduced date is displayed in filtered record###########
+2018-09-10 21:51:06 INFO  Test:239 - #########Correct Introduced date is displayed in filtered record###########
+2018-09-10 21:51:06 INFO  Test:255 - #########Correct new computer name is displayed in filtered record###########
+2018-09-10 21:51:07 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:51:07 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:51:17 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:51:18 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:51:19 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:51:19 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:51:19 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:51:22 INFO  Test:335 - #########User is correctly unable to create new computer due to missing of new computer name###########
+2018-09-10 21:51:22 INFO  Test:360 - #########User is correctly unable to create new computer due to missing of new computer name###########
+2018-09-10 21:51:24 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:51:24 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:51:34 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:51:34 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:51:36 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:51:36 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:51:36 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:51:39 INFO  Test:447 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
+2018-09-10 21:51:39 INFO  Test:472 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
+2018-09-10 21:51:41 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:51:41 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:51:50 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:51:51 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:51:52 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:51:52 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:51:52 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:51:56 INFO  Test:559 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
+2018-09-10 21:51:56 INFO  Test:583 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
+2018-09-10 21:51:57 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:51:57 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:52:08 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:52:09 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:52:10 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:52:10 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:52:10 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:52:14 INFO  Test:668 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
+2018-09-10 21:52:14 INFO  Test:692 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
+2018-09-10 21:52:14 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:52:14 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:52:24 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:52:25 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:52:26 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:52:26 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:52:26 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:52:29 INFO  Test:771 - #########User is correctly unable to create new computer due to invalid 'Discontinued Date' format###########
+2018-09-10 21:52:29 INFO  Test:796 - #########User is correctly unable to create new computer due to invalid 'Discontinued Date' format###########
+2018-09-10 21:52:30 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:52:30 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:52:40 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:52:41 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:52:42 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:52:42 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:52:43 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:52:46 INFO  Test:877 - #########User is correctly unable to create new computer due to invalid 'Discontinued Date' format###########
+2018-09-10 21:52:46 INFO  Test:901 - #########User is correctly unable to create new computer due to invalid 'Discontiuned Date format###########
+2018-09-10 21:52:46 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:52:46 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:52:55 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:52:56 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:52:57 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:52:57 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:52:58 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:53:00 INFO  Test:982 - #########User is correctly unable to create new computer due to invalid Discontinued date format###########
+2018-09-10 21:53:00 INFO  Test:1006 - #########User is correctly unable to create new computer due to invalid Introduced Date format###########
+2018-09-10 21:53:01 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:53:01 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:53:11 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:53:11 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:53:12 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:53:13 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:53:13 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:53:17 INFO  Test:1085 - #########  No Validation message for 'Discontinued Date' less than 'Introducation Date' is thrown###########
+2018-09-10 21:53:17 INFO  Test:1105 - #########No Validation message is thrown as new computer i.e Cosmic Computer Systemscreated###########
+2018-09-10 21:53:17 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:53:17 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:53:27 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:53:27 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:53:29 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:53:29 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:53:29 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:53:32 INFO  Test:1185 - #########User is able to create new computer###########
+2018-09-10 21:53:32 INFO  Test:1203 - #########Success message does not contain new computer name hence new computer was NOT added successfully###########
+2018-09-10 21:53:33 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:53:33 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:53:44 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:53:45 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:53:46 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:53:46 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:53:46 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:53:49 INFO  Test:1275 - #########  Validation message for valid 'Discontinued Date' leap year is thrown ####
+2018-09-10 21:53:50 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:53:50 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:54:00 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:54:00 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:54:02 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:54:02 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:54:02 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:54:05 INFO  Test:1353 - #########  Validation message for incorrect 'Introduced Date' is shown ####
+2018-09-10 21:54:06 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:54:06 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:54:18 INFO  Test:131 - --------Sample Application clicked successfully-----------------
+2018-09-10 21:54:18 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:54:19 INFO  Test:80 - -----Computer name entered successfully-----
+2018-09-10 21:54:20 INFO  Test:89 - -----Introdced date entered successfully-----
+2018-09-10 21:54:20 INFO  Test:98 - -----Introdced date entered successfully-----
+2018-09-10 21:54:23 INFO  Test:1426 - #########User is routed to Home page after clicking on cancel button###########
+2018-09-10 21:54:23 INFO  Test:216 - -----Computer name entered successfully in search box-----
+2018-09-10 21:54:24 INFO  Test:367 - --------Nothing to display message is displayed-----------------
+2018-09-10 21:54:24 INFO  Test:1450 - #########User is routed to Home page after clicking on cancel button###########
+2018-09-10 21:54:24 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:54:24 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:54:35 INFO  Test:131 - --------Sample Application clicked successfully-----------------
+2018-09-10 21:54:35 INFO  Test:155 - --------Add new computer clicked successfully-----------------
+2018-09-10 21:54:36 INFO  Test:131 - --------Sample Application clicked successfully-----------------
+2018-09-10 21:54:36 INFO  Test:1504 - #########User is routed to Home page after clicking on sample application link###########
+2018-09-10 21:54:37 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:54:37 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:55:06 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:55:07 INFO  Test:216 - -----Computer name entered successfully in search box-----
+2018-09-10 21:55:07 INFO  Test:90 - ######### Existing computer searched successfully ###########
+2018-09-10 21:55:08 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:55:08 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:55:19 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:55:19 INFO  Test:216 - -----Computer name entered successfully in search box-----
+2018-09-10 21:55:20 INFO  Test:367 - --------Nothing to display message is displayed-----------------
+2018-09-10 21:55:20 INFO  Test:140 - #########Non existing computer can not be searched as 'Nothing to display' message is displayed###########
+2018-09-10 21:55:21 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:55:21 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:55:32 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:55:32 INFO  Test:216 - -----Computer name entered successfully in search box-----
+2018-09-10 21:55:35 INFO  Test:221 - #########Non existing computer can not be searched as 'Nothing to display' message is displayed###########
+2018-09-10 21:55:36 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:55:36 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:55:46 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:55:46 INFO  Test:216 - -----Computer name entered successfully in search box-----
+2018-09-10 21:55:52 INFO  Test:84 - #########Success message correctly displays about computer deletion###########
+2018-09-10 21:55:52 INFO  Test:216 - -----Computer name entered successfully in search box-----
+2018-09-10 21:55:53 INFO  Test:367 - --------Nothing to display message is displayed-----------------
+2018-09-10 21:55:53 INFO  Test:105 - #########Deleted computer can not be searched as 'Nothing to display' message is displayed###########
+2018-09-10 21:55:53 INFO  Test:84 - Creating a object of Firefox Browser
+2018-09-10 21:55:53 INFO  Test:85 - Navigating to http://computer-database.herokuapp.com/computersfor Firefox browser
+2018-09-10 21:56:03 INFO  Test:79 - --------Home Page is displayed successfully-----------------
+2018-09-10 21:56:03 INFO  Test:216 - -----Computer name entered successfully in search box-----
+2018-09-10 21:56:08 INFO  Test:102 - -----Computer name entered successfully-----
+2018-09-10 21:56:08 INFO  Test:111 - -----Introdced date entered successfully-----
+2018-09-10 21:56:08 INFO  Test:120 - -----Introdced date entered successfully-----
+2018-09-10 21:56:12 INFO  Test:121 - #########Success message contains updated computer name hence computer updated successfully###########
+2018-09-10 21:56:12 INFO  Test:216 - -----Computer name entered successfully in search box-----
+2018-09-10 21:56:12 INFO  Test:164 - #########Correct updated 'computer name' is displayed in filtered record###########
+2018-09-10 21:56:12 INFO  Test:180 - #########Correct updated Introduced date is displayed in filtered record###########
+2018-09-10 21:56:12 INFO  Test:196 - #########Correct updated Introduced date is displayed in filtered record###########
+2018-09-10 21:56:12 INFO  Test:212 - #########Correct updated 'company name' is displayed in filtered record###########

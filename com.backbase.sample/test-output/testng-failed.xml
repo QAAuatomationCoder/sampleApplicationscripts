@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BackBase Regression Suite]">
+  <parameter name="browserType" value="Firefox"/>
+  <listeners>
+    <listener class-name="com.backbase.listeners.CustomListeners"/>
+  </listeners>
+  <test name="New Computer Addition(failed)">
+    <parameter name="browserType" value="Firefox"/>
+    <classes>
+      <class name="com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases">
+        <methods>
+          <include name="afterEachTest"/>
+          <include name="getMethodName"/>
+        </methods>
+      </class> <!-- com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases -->
+      <class name="com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases">
+        <methods>
+          <include name="getMethodName"/>
+          <include name="afterEachTest"/>
+        </methods>
+      </class> <!-- com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases -->
+      <class name="com.backbase.DeleteComputerTestCases.Delete_Computer_Functionality_TestCases">
+        <methods>
+          <include name="getMethodName"/>
+          <include name="TC_01_Delete_Existing_Compuer" invocation-numbers="0"/>
+          <include name="afterEachTest"/>
+        </methods>
+      </class> <!-- com.backbase.DeleteComputerTestCases.Delete_Computer_Functionality_TestCases -->
+      <class name="com.backbase.UpdateComputerTestCases.Update_Computer_Functionality_TestCases">
+        <methods>
+          <include name="getMethodName"/>
+          <include name="afterEachTest"/>
+        </methods>
+      </class> <!-- com.backbase.UpdateComputerTestCases.Update_Computer_Functionality_TestCases -->
+    </classes>
+  </test> <!-- New Computer Addition(failed) -->
+</suite> <!-- Failed suite [BackBase Regression Suite] -->
