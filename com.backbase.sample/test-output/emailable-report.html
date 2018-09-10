@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">New Computer Addition</td><td class="numi">20</td><td class="numi">20</td><td class="numi">0</td><td class="numi">0</td><td class="numi">359.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">New Computer Addition &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="15">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases</td><td><a href="#m1"><b>TC_004_New_Computer_Addition_New_Computer_Name_Mandatory_Field_Verification</b>  </a></td><td class="numi">1</td><td>1536589610656</td><td class="numi">6006</td></tr><tr class="passedodd"><td><a href="#m2"><b>TC_005_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case1</b>  </a></td><td class="numi">1</td><td>1536589633204</td><td class="numi">5954</td></tr><tr class="passedodd"><td><a href="#m3"><b>TC_006_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case2</b>  </a></td><td class="numi">1</td><td>1536589650542</td><td class="numi">6123</td></tr><tr class="passedodd"><td><a href="#m4"><b>TC_007_New_Computer_Addition_New_Computer_Text_Data_In_Introduced_Date_Format_Verification</b>  </a></td><td class="numi">1</td><td>1536589668284</td><td class="numi">5092</td></tr><tr class="passedodd"><td><a href="#m5"><b>TC_008_New_Computer_Addition_New_Computer_Invalid_Discontinued_Date_Format_Verification_Case1</b>  </a></td><td class="numi">1</td><td>1536589685613</td><td class="numi">5089</td></tr><tr class="passedodd"><td><a href="#m6"><b>TC_009_New_Computer_Addition_New_Computer_Invalid_Discontiuned_Date_Format_Verification_Case2</b>  </a></td><td class="numi">1</td><td>1536589702623</td><td class="numi">5044</td></tr><tr class="passedodd"><td><a href="#m7"><b>TC_010_New_Computer_Addition_New_Computer_Text_Data_In_Discontinued_Date_Format_Verification</b>  </a></td><td class="numi">1</td><td>1536589719182</td><td class="numi">5007</td></tr><tr class="passedodd"><td><a href="#m8"><b>TC_011_New_Computer_Addition_New_Computer_Discontinued_Date_Less_than_Introduced_Date_Verification</b>  </a></td><td class="numi">1</td><td>1536589735782</td><td class="numi">5688</td></tr><tr class="passedodd"><td><a href="#m9"><b>TC_012_New_Computer_Addition_New_Computer_Leap_And_Non_Leap_Years_Date_Validation</b>  </a></td><td class="numi">1</td><td>1536589753476</td><td class="numi">5361</td></tr><tr class="passedodd"><td><a href="#m10"><b>TC_013_Verify_New_Computer_Addition_With_Leap_Years</b>  </a></td><td class="numi">1</td><td>1536589770048</td><td class="numi">5245</td></tr><tr class="passedodd"><td><a href="#m11"><b>TC_014_Verify_New_Computer_Addition_With_Incorrect_Month_Ending_Dates</b>  </a></td><td class="numi">1</td><td>1536589787440</td><td class="numi">5169</td></tr><tr class="passedodd"><td><a href="#m12"><b>TC_015_New_Computer_Addition_Click_Cancel_Btn_Verification</b>  </a></td><td class="numi">1</td><td>1536589802720</td><td class="numi">6586</td></tr><tr class="passedodd"><td><a href="#m13"><b>TC_016_New_Computer_Addition_Click_Sample_Application_Link_Displays_Home_Page_Verification</b>  </a></td><td class="numi">1</td><td>1536589820618</td><td class="numi">2202</td></tr><tr class="passedodd"><td><a href="#m14"><b>TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data</b>  </a></td><td class="numi">2</td><td>1536589566386</td><td class="numi">31538</td></tr><tr class="passedodd"><td><a href="#m15"><b>TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data</b>  </a></td><td class="numi">2</td><td>1536589566386</td><td class="numi">31538</td></tr>
+<tr class="passedeven"><td rowspan="1">com.backbase.DeleteComputerTestCases.Delete_Computer_Functionality_TestCases</td><td><a href="#m16"><b>TC_01_Delete_Existing_Compuer</b>  </a></td><td class="numi">1</td><td>1536589880908</td><td class="numi">6031</td></tr>
+<tr class="passedodd"><td rowspan="1">com.backbase.UpdateComputerTestCases.Update_Computer_Functionality_TestCases</td><td><a href="#m17"><b>TC_01_Update_Existing_Computer_Details</b>  </a></td><td class="numi">1</td><td>1536589898381</td><td class="numi">8375</td></tr>
+<tr class="passedeven"><td rowspan="3">com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases</td><td><a href="#m18"><b>TC_01_Verify_Existing_Computer_Details</b>  </a></td><td class="numi">1</td><td>1536589833639</td><td class="numi">712</td></tr><tr class="passedeven"><td><a href="#m19"><b>TC_02_Verify_Non_Existing_Computer_Search</b>  </a></td><td class="numi">1</td><td>1536589845617</td><td class="numi">720</td></tr><tr class="passedeven"><td><a href="#m20"><b>TC_03_Verify_Existing_Computer_Details_Update_Page</b>  </a></td><td class="numi">1</td><td>1536589857079</td><td class="numi">3527</td></tr>
+</table>
+<h1>New Computer Addition</h1>
+<h2 id="m1">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_009_New_Computer_Addition_New_Computer_Invalid_Discontiuned_Date_Format_Verification_Case2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_010_New_Computer_Addition_New_Computer_Text_Data_In_Discontinued_Date_Format_Verification</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_004_New_Computer_Addition_New_Computer_Name_Mandatory_Field_Verification</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_006_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases:TC_02_Verify_Non_Existing_Computer_Search</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>#NonExistingHGTestCompName</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>HGNew_MAC700</td>
+<td>2018-05-10</td>
+<td>2018-07-10</td>
+<td>Thinking Machines</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_013_Verify_New_Computer_Addition_With_Leap_Years</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.backbase.UpdateComputerTestCases.Update_Computer_Functionality_TestCases:TC_01_Update_Existing_Computer_Details</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>HGNew_MAC700</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_015_New_Computer_Addition_Click_Cancel_Btn_Verification</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases:TC_01_Verify_Existing_Computer_Details</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>HGNew_MAC700</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_014_Verify_New_Computer_Addition_With_Incorrect_Month_Ending_Dates</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_016_New_Computer_Addition_Click_Sample_Application_Link_Displays_Home_Page_Verification</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Solaris XYZ Computers7000</td>
+<td>2018-11-22</td>
+<td>2019-11-22</td>
+<td>Apple Inc.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_007_New_Computer_Addition_New_Computer_Text_Data_In_Introduced_Date_Format_Verification</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.backbase.DeleteComputerTestCases.Delete_Computer_Functionality_TestCases:TC_01_Delete_Existing_Compuer</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>Solaris XYZ Computers7000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_011_New_Computer_Addition_New_Computer_Discontinued_Date_Less_than_Introduced_Date_Verification</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_008_New_Computer_Addition_New_Computer_Invalid_Discontinued_Date_Format_Verification_Case1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_012_New_Computer_Addition_New_Computer_Leap_And_Non_Leap_Years_Date_Validation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases:TC_03_Verify_Existing_Computer_Details_Update_Page</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>HGNew_MAC700</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases:TC_005_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

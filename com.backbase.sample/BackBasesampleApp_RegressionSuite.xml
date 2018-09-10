@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BackBase Regression Suite">
+	<listeners>
+		<listener class-name="com.backbase.listeners.CustomListeners"></listener>
+	</listeners>
+	<test name="New Computer Addition">
+		<parameter name="browserType" value="Firefox"></parameter>
+		<classes>
+			<class
+				name="com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases" />
+			<methods>
+				<include name="TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data" /> 
+				<include name="TC_004_New_Computer_Addition_New_Computer_Name_Mandatory_Field_Verification" />
+               	<include name="TC_005_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case1" />
+                <include name="TC_006_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case2" />
+              	<include name="TC_007_New_Computer_Addition_New_Computer_Text_Data_In_Introduced_Date_Format_Verification" />
+                <include name="TC_008_New_Computer_Addition_New_Computer_Invalid_Discontinued_Date_Format_Verification_Case1" />
+                <include name="TC_009_New_Computer_Addition_New_Computer_Invalid_Discontiuned_Date_Format_Verification_Case2" /> 
+                <include name="TC_010_New_Computer_Addition_New_Computer_Text_Data_In_Discontinued_Date_Format_Verification" /> 
+                <include name="TC_011_New_Computer_Addition_New_Computer_Discontinued_Date_Less_than_Introduced_Date_Verification" />
+                <include name="TC_012_New_Computer_Addition_New_Computer_Leap_And_Non_Leap_Years_Date_Validation" />
+                <include name="TC_013_Verify_New_Computer_Addition_With_Leap_Years" />
+                <include name="TC_014_Verify_New_Computer_Addition_With_Incorrect_Month_Ending_Dates" />
+                <include name="TC_015_New_Computer_Addition_Click_Cancel_Btn_Verification" /> 
+                <include name="TC_016_New_Computer_Addition_Click_Sample_Application_Link_Displays_Home_Page_Verification" />
+			</methods>
+			<class
+				name="com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases" />
+			<methods>			    
+			    <include name="TC_01_Verify_Existing_Computer_Details" />
+               	<include name="TC_02_Verify_Non_Existing_Computer_Search" /> -->
+                <include name="TC_03_Verify_Existing_Computer_Details_Update_Page" /> -->
+			</methods>
+			<class
+				name="com.backbase.DeleteComputerTestCases.Delete_Computer_Functionality_TestCases" />
+			<methods>			    
+			    <include name="TC_01_Delete_Existing_Compuer" />
+			</methods>
+			<class
+				name="com.backbase.UpdateComputerTestCases.Update_Computer_Functionality_TestCases" />
+			<methods>			    
+			    <include name="TC_01_Update_Existing_Computer_Details" />
+			</methods>
+			
+		</classes>
+	</test>
+</suite> 

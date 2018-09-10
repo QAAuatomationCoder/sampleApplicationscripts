@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BackBase Regression Suite" duration-ms="359480" started-at="2018-09-10T14:25:47Z" finished-at="2018-09-10T14:31:47Z">
+    <groups>
+    </groups>
+    <test name="New Computer Addition" duration-ms="359480" started-at="2018-09-10T14:25:47Z" finished-at="2018-09-10T14:31:47Z">
+      <class name="com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases@1e397ed7]" name="getMethodName" is-config="true" duration-ms="10062" started-at="2018-09-10T20:00:23Z" finished-at="2018-09-10T20:00:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases.TC_01_Verify_Existing_Computer_Details(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_01_Verify_Existing_Computer_Details(java.lang.String)[pri:0, instance:com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases@1e397ed7]" name="TC_01_Verify_Existing_Computer_Details" duration-ms="712" started-at="2018-09-10T20:00:33Z" data-provider="existingCompData" finished-at="2018-09-10T20:00:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HGNew_MAC700]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Verify_Existing_Computer_Details -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases@1e397ed7]" name="afterEachTest" is-config="true" duration-ms="649" started-at="2018-09-10T20:00:34Z" finished-at="2018-09-10T20:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_Verify_Existing_Computer_Details status=SUCCESS method=Read_Existing_Computer_Functionality_TestCases.TC_01_Verify_Existing_Computer_Details(java.lang.String)[pri:0, instance:com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases@1e397ed7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases@1e397ed7]" name="getMethodName" is-config="true" duration-ms="10591" started-at="2018-09-10T20:00:35Z" finished-at="2018-09-10T20:00:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases.TC_02_Verify_Non_Existing_Computer_Search(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_02_Verify_Non_Existing_Computer_Search(java.lang.String)[pri:0, instance:com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases@1e397ed7]" name="TC_02_Verify_Non_Existing_Computer_Search" duration-ms="720" started-at="2018-09-10T20:00:45Z" data-provider="nonExistingCompData" finished-at="2018-09-10T20:00:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#NonExistingHGTestCompName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_Verify_Non_Existing_Computer_Search -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases@1e397ed7]" name="afterEachTest" is-config="true" duration-ms="611" started-at="2018-09-10T20:00:46Z" finished-at="2018-09-10T20:00:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_02_Verify_Non_Existing_Computer_Search status=SUCCESS method=Read_Existing_Computer_Functionality_TestCases.TC_02_Verify_Non_Existing_Computer_Search(java.lang.String)[pri:0, instance:com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases@1e397ed7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases@1e397ed7]" name="getMethodName" is-config="true" duration-ms="10107" started-at="2018-09-10T20:00:46Z" finished-at="2018-09-10T20:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases.TC_03_Verify_Existing_Computer_Details_Update_Page(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_03_Verify_Existing_Computer_Details_Update_Page(java.lang.String)[pri:0, instance:com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases@1e397ed7]" name="TC_03_Verify_Existing_Computer_Details_Update_Page" duration-ms="3527" started-at="2018-09-10T20:00:57Z" data-provider="existingCompData" finished-at="2018-09-10T20:01:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HGNew_MAC700]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Verify_Existing_Computer_Details_Update_Page -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases@1e397ed7]" name="afterEachTest" is-config="true" duration-ms="686" started-at="2018-09-10T20:01:00Z" finished-at="2018-09-10T20:01:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_03_Verify_Existing_Computer_Details_Update_Page status=SUCCESS method=Read_Existing_Computer_Functionality_TestCases.TC_03_Verify_Existing_Computer_Details_Update_Page(java.lang.String)[pri:0, instance:com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases@1e397ed7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- com.backbase.ExistingComputerTestCases.Read_Existing_Computer_Functionality_TestCases -->
+      <class name="com.backbase.DeleteComputerTestCases.Delete_Computer_Functionality_TestCases">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.DeleteComputerTestCases.Delete_Computer_Functionality_TestCases@5702b3b1]" name="getMethodName" is-config="true" duration-ms="19528" started-at="2018-09-10T20:01:01Z" finished-at="2018-09-10T20:01:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.DeleteComputerTestCases.Delete_Computer_Functionality_TestCases.TC_01_Delete_Existing_Compuer(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_01_Delete_Existing_Compuer(java.lang.String)[pri:0, instance:com.backbase.DeleteComputerTestCases.Delete_Computer_Functionality_TestCases@5702b3b1]" name="TC_01_Delete_Existing_Compuer" duration-ms="6031" started-at="2018-09-10T20:01:20Z" data-provider="deleteTestData" finished-at="2018-09-10T20:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Solaris XYZ Computers7000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Delete_Existing_Compuer -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.DeleteComputerTestCases.Delete_Computer_Functionality_TestCases@5702b3b1]" name="afterEachTest" is-config="true" duration-ms="610" started-at="2018-09-10T20:01:26Z" finished-at="2018-09-10T20:01:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_Delete_Existing_Compuer status=SUCCESS method=Delete_Computer_Functionality_TestCases.TC_01_Delete_Existing_Compuer(java.lang.String)[pri:0, instance:com.backbase.DeleteComputerTestCases.Delete_Computer_Functionality_TestCases@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- com.backbase.DeleteComputerTestCases.Delete_Computer_Functionality_TestCases -->
+      <class name="com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="17939" started-at="2018-09-10T19:55:48Z" finished-at="2018-09-10T19:56:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data" duration-ms="7103" started-at="2018-09-10T19:56:06Z" data-provider="newComputerData" finished-at="2018-09-10T19:56:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Solaris XYZ Computers7000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2018-11-22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-11-22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Apple Inc.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="6405" started-at="2018-09-10T19:56:13Z" finished-at="2018-09-10T19:56:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="11967" started-at="2018-09-10T19:56:19Z" finished-at="2018-09-10T19:56:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data" duration-ms="6062" started-at="2018-09-10T19:56:31Z" data-provider="newComputerData" finished-at="2018-09-10T19:56:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HGNew_MAC700]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2018-05-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2018-07-10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Thinking Machines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="1108" started-at="2018-09-10T19:56:37Z" finished-at="2018-09-10T19:56:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_01_02_03_Verify_New_Computer_Addition_With_Valid_Data(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="11622" started-at="2018-09-10T19:56:39Z" finished-at="2018-09-10T19:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_004_New_Computer_Addition_New_Computer_Name_Mandatory_Field_Verification()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_004_New_Computer_Addition_New_Computer_Name_Mandatory_Field_Verification()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_004_New_Computer_Addition_New_Computer_Name_Mandatory_Field_Verification" duration-ms="6006" started-at="2018-09-10T19:56:50Z" finished-at="2018-09-10T19:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_New_Computer_Addition_New_Computer_Name_Mandatory_Field_Verification -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="894" started-at="2018-09-10T19:56:56Z" finished-at="2018-09-10T19:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_004_New_Computer_Addition_New_Computer_Name_Mandatory_Field_Verification status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_004_New_Computer_Addition_New_Computer_Name_Mandatory_Field_Verification()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="15645" started-at="2018-09-10T19:56:57Z" finished-at="2018-09-10T19:57:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_005_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_005_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case1()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_005_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case1" duration-ms="5954" started-at="2018-09-10T19:57:13Z" finished-at="2018-09-10T19:57:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case1 -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="651" started-at="2018-09-10T19:57:19Z" finished-at="2018-09-10T19:57:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_005_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case1 status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_005_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case1()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="10729" started-at="2018-09-10T19:57:19Z" finished-at="2018-09-10T19:57:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_006_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_006_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case2()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_006_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case2" duration-ms="6123" started-at="2018-09-10T19:57:30Z" finished-at="2018-09-10T19:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_006_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case2 -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="649" started-at="2018-09-10T19:57:36Z" finished-at="2018-09-10T19:57:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_006_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case2 status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_006_New_Computer_Addition_New_Computer_Invalid_Introduced_Date_Format_Verification_Case2()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="10969" started-at="2018-09-10T19:57:37Z" finished-at="2018-09-10T19:57:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_007_New_Computer_Addition_New_Computer_Text_Data_In_Introduced_Date_Format_Verification()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_007_New_Computer_Addition_New_Computer_Text_Data_In_Introduced_Date_Format_Verification()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_007_New_Computer_Addition_New_Computer_Text_Data_In_Introduced_Date_Format_Verification" duration-ms="5092" started-at="2018-09-10T19:57:48Z" finished-at="2018-09-10T19:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_007_New_Computer_Addition_New_Computer_Text_Data_In_Introduced_Date_Format_Verification -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="782" started-at="2018-09-10T19:57:53Z" finished-at="2018-09-10T19:57:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_007_New_Computer_Addition_New_Computer_Text_Data_In_Introduced_Date_Format_Verification status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_007_New_Computer_Addition_New_Computer_Text_Data_In_Introduced_Date_Format_Verification()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="11454" started-at="2018-09-10T19:57:54Z" finished-at="2018-09-10T19:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_008_New_Computer_Addition_New_Computer_Invalid_Discontinued_Date_Format_Verification_Case1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_008_New_Computer_Addition_New_Computer_Invalid_Discontinued_Date_Format_Verification_Case1()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_008_New_Computer_Addition_New_Computer_Invalid_Discontinued_Date_Format_Verification_Case1" duration-ms="5089" started-at="2018-09-10T19:58:05Z" finished-at="2018-09-10T19:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_008_New_Computer_Addition_New_Computer_Invalid_Discontinued_Date_Format_Verification_Case1 -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="666" started-at="2018-09-10T19:58:10Z" finished-at="2018-09-10T19:58:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_008_New_Computer_Addition_New_Computer_Invalid_Discontinued_Date_Format_Verification_Case1 status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_008_New_Computer_Addition_New_Computer_Invalid_Discontinued_Date_Format_Verification_Case1()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="11254" started-at="2018-09-10T19:58:11Z" finished-at="2018-09-10T19:58:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_009_New_Computer_Addition_New_Computer_Invalid_Discontiuned_Date_Format_Verification_Case2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_009_New_Computer_Addition_New_Computer_Invalid_Discontiuned_Date_Format_Verification_Case2()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_009_New_Computer_Addition_New_Computer_Invalid_Discontiuned_Date_Format_Verification_Case2" duration-ms="5044" started-at="2018-09-10T19:58:22Z" finished-at="2018-09-10T19:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_009_New_Computer_Addition_New_Computer_Invalid_Discontiuned_Date_Format_Verification_Case2 -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="653" started-at="2018-09-10T19:58:27Z" finished-at="2018-09-10T19:58:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_009_New_Computer_Addition_New_Computer_Invalid_Discontiuned_Date_Format_Verification_Case2 status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_009_New_Computer_Addition_New_Computer_Invalid_Discontiuned_Date_Format_Verification_Case2()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="10861" started-at="2018-09-10T19:58:28Z" finished-at="2018-09-10T19:58:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_010_New_Computer_Addition_New_Computer_Text_Data_In_Discontinued_Date_Format_Verification()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_010_New_Computer_Addition_New_Computer_Text_Data_In_Discontinued_Date_Format_Verification()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_010_New_Computer_Addition_New_Computer_Text_Data_In_Discontinued_Date_Format_Verification" duration-ms="5007" started-at="2018-09-10T19:58:39Z" finished-at="2018-09-10T19:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_010_New_Computer_Addition_New_Computer_Text_Data_In_Discontinued_Date_Format_Verification -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="636" started-at="2018-09-10T19:58:44Z" finished-at="2018-09-10T19:58:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_010_New_Computer_Addition_New_Computer_Text_Data_In_Discontinued_Date_Format_Verification status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_010_New_Computer_Addition_New_Computer_Text_Data_In_Discontinued_Date_Format_Verification()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="10956" started-at="2018-09-10T19:58:44Z" finished-at="2018-09-10T19:58:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_011_New_Computer_Addition_New_Computer_Discontinued_Date_Less_than_Introduced_Date_Verification() throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_011_New_Computer_Addition_New_Computer_Discontinued_Date_Less_than_Introduced_Date_Verification()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_011_New_Computer_Addition_New_Computer_Discontinued_Date_Less_than_Introduced_Date_Verification" duration-ms="5688" started-at="2018-09-10T19:58:55Z" finished-at="2018-09-10T19:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_011_New_Computer_Addition_New_Computer_Discontinued_Date_Less_than_Introduced_Date_Verification -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="570" started-at="2018-09-10T19:59:01Z" finished-at="2018-09-10T19:59:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_011_New_Computer_Addition_New_Computer_Discontinued_Date_Less_than_Introduced_Date_Verification status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_011_New_Computer_Addition_New_Computer_Discontinued_Date_Less_than_Introduced_Date_Verification()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="11435" started-at="2018-09-10T19:59:02Z" finished-at="2018-09-10T19:59:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_012_New_Computer_Addition_New_Computer_Leap_And_Non_Leap_Years_Date_Validation() throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_012_New_Computer_Addition_New_Computer_Leap_And_Non_Leap_Years_Date_Validation()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_012_New_Computer_Addition_New_Computer_Leap_And_Non_Leap_Years_Date_Validation" duration-ms="5361" started-at="2018-09-10T19:59:13Z" finished-at="2018-09-10T19:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_012_New_Computer_Addition_New_Computer_Leap_And_Non_Leap_Years_Date_Validation -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="580" started-at="2018-09-10T19:59:18Z" finished-at="2018-09-10T19:59:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_012_New_Computer_Addition_New_Computer_Leap_And_Non_Leap_Years_Date_Validation status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_012_New_Computer_Addition_New_Computer_Leap_And_Non_Leap_Years_Date_Validation()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="10627" started-at="2018-09-10T19:59:19Z" finished-at="2018-09-10T19:59:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_013_Verify_New_Computer_Addition_With_Leap_Years() throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_013_Verify_New_Computer_Addition_With_Leap_Years()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_013_Verify_New_Computer_Addition_With_Leap_Years" duration-ms="5245" started-at="2018-09-10T19:59:30Z" finished-at="2018-09-10T19:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_013_Verify_New_Computer_Addition_With_Leap_Years -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="638" started-at="2018-09-10T19:59:35Z" finished-at="2018-09-10T19:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_013_Verify_New_Computer_Addition_With_Leap_Years status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_013_Verify_New_Computer_Addition_With_Leap_Years()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="11509" started-at="2018-09-10T19:59:35Z" finished-at="2018-09-10T19:59:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_014_Verify_New_Computer_Addition_With_Incorrect_Month_Ending_Dates() throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_014_Verify_New_Computer_Addition_With_Incorrect_Month_Ending_Dates()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_014_Verify_New_Computer_Addition_With_Incorrect_Month_Ending_Dates" duration-ms="5169" started-at="2018-09-10T19:59:47Z" finished-at="2018-09-10T19:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_014_Verify_New_Computer_Addition_With_Incorrect_Month_Ending_Dates -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="627" started-at="2018-09-10T19:59:52Z" finished-at="2018-09-10T19:59:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_014_Verify_New_Computer_Addition_With_Incorrect_Month_Ending_Dates status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_014_Verify_New_Computer_Addition_With_Incorrect_Month_Ending_Dates()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="9482" started-at="2018-09-10T19:59:53Z" finished-at="2018-09-10T20:00:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_015_New_Computer_Addition_Click_Cancel_Btn_Verification() throws java.text.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_015_New_Computer_Addition_Click_Cancel_Btn_Verification()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_015_New_Computer_Addition_Click_Cancel_Btn_Verification" duration-ms="6586" started-at="2018-09-10T20:00:02Z" finished-at="2018-09-10T20:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_015_New_Computer_Addition_Click_Cancel_Btn_Verification -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="679" started-at="2018-09-10T20:00:09Z" finished-at="2018-09-10T20:00:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_015_New_Computer_Addition_Click_Cancel_Btn_Verification status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_015_New_Computer_Addition_Click_Cancel_Btn_Verification()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="getMethodName" is-config="true" duration-ms="10632" started-at="2018-09-10T20:00:09Z" finished-at="2018-09-10T20:00:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases.TC_016_New_Computer_Addition_Click_Sample_Application_Link_Displays_Home_Page_Verification() throws java.text.ParseException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_016_New_Computer_Addition_Click_Sample_Application_Link_Displays_Home_Page_Verification()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="TC_016_New_Computer_Addition_Click_Sample_Application_Link_Displays_Home_Page_Verification" duration-ms="2202" started-at="2018-09-10T20:00:20Z" finished-at="2018-09-10T20:00:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_016_New_Computer_Addition_Click_Sample_Application_Link_Displays_Home_Page_Verification -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6]" name="afterEachTest" is-config="true" duration-ms="594" started-at="2018-09-10T20:00:22Z" finished-at="2018-09-10T20:00:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_016_New_Computer_Addition_Click_Sample_Application_Link_Displays_Home_Page_Verification status=SUCCESS method=Add_New_Computer_Functionality_TestCases.TC_016_New_Computer_Addition_Click_Sample_Application_Link_Displays_Home_Page_Verification()[pri:0, instance:com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- com.backbase.CreateNewComputerTestCases.Add_New_Computer_Functionality_TestCases -->
+      <class name="com.backbase.UpdateComputerTestCases.Update_Computer_Functionality_TestCases">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.backbase.UpdateComputerTestCases.Update_Computer_Functionality_TestCases@69ea3742]" name="getMethodName" is-config="true" duration-ms="10813" started-at="2018-09-10T20:01:27Z" finished-at="2018-09-10T20:01:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.backbase.UpdateComputerTestCases.Update_Computer_Functionality_TestCases.TC_01_Update_Existing_Computer_Details(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="TC_01_Update_Existing_Computer_Details(java.lang.String)[pri:0, instance:com.backbase.UpdateComputerTestCases.Update_Computer_Functionality_TestCases@69ea3742]" name="TC_01_Update_Existing_Computer_Details" duration-ms="8375" started-at="2018-09-10T20:01:38Z" data-provider="existingCompData" finished-at="2018-09-10T20:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HGNew_MAC700]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Update_Existing_Computer_Details -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:com.backbase.UpdateComputerTestCases.Update_Computer_Functionality_TestCases@69ea3742]" name="afterEachTest" is-config="true" duration-ms="614" started-at="2018-09-10T20:01:46Z" finished-at="2018-09-10T20:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_Update_Existing_Computer_Details status=SUCCESS method=Update_Computer_Functionality_TestCases.TC_01_Update_Existing_Computer_Details(java.lang.String)[pri:0, instance:com.backbase.UpdateComputerTestCases.Update_Computer_Functionality_TestCases@69ea3742] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- com.backbase.UpdateComputerTestCases.Update_Computer_Functionality_TestCases -->
+    </test> <!-- New Computer Addition -->
+  </suite> <!-- BackBase Regression Suite -->
+</testng-results>
